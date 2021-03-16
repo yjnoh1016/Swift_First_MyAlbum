@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA6D489F26008D5E00CADBCE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AAA440F725F0683700988DD9 /* My Album.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Album.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA440FA25F0683700988DD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA440FC25F0683700988DD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 		AAA440EE25F0683700988DD9 = {
 			isa = PBXGroup;
 			children = (
+				AA6D489F26008D5E00CADBCE /* README.md */,
 				AAA440F925F0683700988DD9 /* My Album */,
 				AAA440F825F0683700988DD9 /* Products */,
 			);
