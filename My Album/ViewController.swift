@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        priceLabel.text = "₩ \(currentValue)"
+        refresh()
     }
 
     @IBAction func showAlert(_ sender: Any) {
@@ -25,7 +25,10 @@ class ViewController: UIViewController {
         let action = UIAlertAction(title: "OK", style: .default, handler: nil)
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
-        
+        refresh()
+    }
+    
+    func refresh() {
         let randomPrice = arc4random_uniform(10000) + 1
         currentValue = Int(randomPrice)
         priceLabel.text = "₩ \(currentValue)"
